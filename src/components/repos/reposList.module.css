@@ -1,0 +1,32 @@
+.listRepos {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 8px;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+}
+
+.listItemName,
+.listItemLanguage {
+    padding: 10px;
+}
+
+.listItem {
+    padding: 30px;
+    background-color: #686de0;
+    border-radius: 5px;
+    
+}
+
+.listItemLink {
+    color:#fff;
+    margin-top: 10px;
+    padding: 8px;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+}
+
